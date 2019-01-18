@@ -1,0 +1,6 @@
+framework module Pods_Ozon2 {
+  umbrella header "Pods-Ozon2-umbrella.h"
+
+  export *
+  module * { export * }
+}

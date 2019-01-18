@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071AB53C21DEA49600DEF166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071AB53B21DEA49600DEF166 /* AppDelegate.swift */; };
+		071AB53E21DEA49600DEF166 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071AB53D21DEA49600DEF166 /* FirstViewController.swift */; };
+		071AB54021DEA49600DEF166 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071AB53F21DEA49600DEF166 /* SecondViewController.swift */; };
+		071AB54321DEA49600DEF166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071AB54121DEA49600DEF166 /* Main.storyboard */; };
+		071AB54521DEA49700DEF166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071AB54421DEA49700DEF166 /* Assets.xcassets */; };
+		071AB54821DEA49700DEF166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071AB54621DEA49700DEF166 /* LaunchScreen.storyboard */; };
+		071AB55421DEB9CE00DEF166 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071AB55321DEB9CE00DEF166 /* News.swift */; };
+		071AB55721DEBEA000DEF166 /* OzonDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071AB55621DEBEA000DEF166 /* OzonDataServices.swift */; };
+		071AB55C21DEC07500DEF166 /* NewsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071AB55B21DEC07500DEF166 /* NewsTableCell.swift */; };
+		071AB56021DF643300DEF166 /* FullNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071AB55F21DF643300DEF166 /* FullNewsVC.swift */; };
+		072876A421EF310B0093656F /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072876A321EF310B0093656F /* UIKit+Extensions.swift */; };
+		072876A621EF312B0093656F /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072876A521EF312B0093656F /* NavigationBar.swift */; };
+		07313B3821EF403500591709 /* ParentViewController subclass UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07313B3721EF403500591709 /* ParentViewController subclass UIViewController.swift */; };
+		07313B3C21F268E100591709 /* ChaildViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07313B3B21F268E100591709 /* ChaildViewController1.swift */; };
+		07313B3E21F26A1600591709 /* ChaildViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07313B3D21F26A1600591709 /* ChaildViewController2.swift */; };
+		CE44D2E93B032CE4125F0C86 /* Pods_Ozon2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE518CC6F54D4F88F00D332 /* Pods_Ozon2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0222732978DB338EB0C67462 /* Pods-Ozon2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ozon2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ozon2/Pods-Ozon2.release.xcconfig"; sourceTree = "<group>"; };
+		071AB53821DEA49600DEF166 /* Ozon2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ozon2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		071AB53B21DEA49600DEF166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		071AB53D21DEA49600DEF166 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		071AB53F21DEA49600DEF166 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		071AB54221DEA49600DEF166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		071AB54421DEA49700DEF166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		071AB54721DEA49700DEF166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		071AB54921DEA49700DEF166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071AB55321DEB9CE00DEF166 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		071AB55621DEBEA000DEF166 /* OzonDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzonDataServices.swift; sourceTree = "<group>"; };
+		071AB55B21DEC07500DEF166 /* NewsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableCell.swift; sourceTree = "<group>"; };
+		071AB55F21DF643300DEF166 /* FullNewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNewsVC.swift; sourceTree = "<group>"; };
+		072876A321EF310B0093656F /* UIKit+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		072876A521EF312B0093656F /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		07313B3721EF403500591709 /* ParentViewController subclass UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ParentViewController subclass UIViewController.swift"; sourceTree = "<group>"; };
+		07313B3B21F268E100591709 /* ChaildViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaildViewController1.swift; sourceTree = "<group>"; };
+		07313B3D21F26A1600591709 /* ChaildViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaildViewController2.swift; sourceTree = "<group>"; };
+		28EF5B8C46E98E291727DD4A /* Pods-Ozon2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ozon2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ozon2/Pods-Ozon2.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE518CC6F54D4F88F00D332 /* Pods_Ozon2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ozon2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071AB53521DEA49600DEF166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE44D2E93B032CE4125F0C86 /* Pods_Ozon2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071AB52F21DEA49600DEF166 = {
+			isa = PBXGroup;
+			children = (
+				07313B3D21F26A1600591709 /* ChaildViewController2.swift */,
+				07313B3B21F268E100591709 /* ChaildViewController1.swift */,
+				07313B3721EF403500591709 /* ParentViewController subclass UIViewController.swift */,
+				071AB53A21DEA49600DEF166 /* Ozon2 */,
+				071AB53921DEA49600DEF166 /* Products */,
+				4A964F617ED3B20CEFA7C767 /* Pods */,
+				EFE5773E58D1E1FACC7647F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		071AB53921DEA49600DEF166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071AB53821DEA49600DEF166 /* Ozon2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071AB53A21DEA49600DEF166 /* Ozon2 */ = {
+			isa = PBXGroup;
+			children = (
+				071AB55A21DEC01200DEF166 /* View */,
+				071AB55521DEBE7B00DEF166 /* Services */,
+				071AB55221DEB98A00DEF166 /* New Group */,
+				071AB54F21DEB14800DEF166 /* Controllers */,
+				071AB53B21DEA49600DEF166 /* AppDelegate.swift */,
+				072876A321EF310B0093656F /* UIKit+Extensions.swift */,
+				072876A521EF312B0093656F /* NavigationBar.swift */,
+				071AB54121DEA49600DEF166 /* Main.storyboard */,
+				071AB54421DEA49700DEF166 /* Assets.xcassets */,
+				071AB54621DEA49700DEF166 /* LaunchScreen.storyboard */,
+				071AB54921DEA49700DEF166 /* Info.plist */,
+			);
+			path = Ozon2;
+			sourceTree = "<group>";
+		};
+		071AB54F21DEB14800DEF166 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				071AB53D21DEA49600DEF166 /* FirstViewController.swift */,
+				071AB53F21DEA49600DEF166 /* SecondViewController.swift */,
+				071AB55F21DF643300DEF166 /* FullNewsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		071AB55221DEB98A00DEF166 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				071AB55321DEB9CE00DEF166 /* News.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		071AB55521DEBE7B00DEF166 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				071AB55621DEBEA000DEF166 /* OzonDataServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		071AB55A21DEC01200DEF166 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				071AB55B21DEC07500DEF166 /* NewsTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A964F617ED3B20CEFA7C767 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28EF5B8C46E98E291727DD4A /* Pods-Ozon2.debug.xcconfig */,
+				0222732978DB338EB0C67462 /* Pods-Ozon2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFE5773E58D1E1FACC7647F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE518CC6F54D4F88F00D332 /* Pods_Ozon2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071AB53721DEA49600DEF166 /* Ozon2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071AB54C21DEA49700DEF166 /* Build configuration list for PBXNativeTarget "Ozon2" */;
+			buildPhases = (
+				7AA0F120DC20E9C125924201 /* [CP] Check Pods Manifest.lock */,
+				071AB53421DEA49600DEF166 /* Sources */,
+				071AB53521DEA49600DEF166 /* Frameworks */,
+				071AB53621DEA49600DEF166 /* Resources */,
+				FA89C222A1D750144FDED20F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ozon2;
+			productName = Ozon2;
+			productReference = 071AB53821DEA49600DEF166 /* Ozon2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071AB53021DEA49600DEF166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Milos Otasevic";
+				TargetAttributes = {
+					071AB53721DEA49600DEF166 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 071AB53321DEA49600DEF166 /* Build configuration list for PBXProject "Ozon2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 071AB52F21DEA49600DEF166;
+			productRefGroup = 071AB53921DEA49600DEF166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071AB53721DEA49600DEF166 /* Ozon2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071AB53621DEA49600DEF166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071AB54821DEA49700DEF166 /* LaunchScreen.storyboard in Resources */,
+				071AB54521DEA49700DEF166 /* Assets.xcassets in Resources */,
+				071AB54321DEA49600DEF166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AA0F120DC20E9C125924201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ozon2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA89C222A1D750144FDED20F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ozon2/Pods-Ozon2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ozon2/Pods-Ozon2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071AB53421DEA49600DEF166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07313B3E21F26A1600591709 /* ChaildViewController2.swift in Sources */,
+				071AB55721DEBEA000DEF166 /* OzonDataServices.swift in Sources */,
+				071AB54021DEA49600DEF166 /* SecondViewController.swift in Sources */,
+				072876A421EF310B0093656F /* UIKit+Extensions.swift in Sources */,
+				071AB53C21DEA49600DEF166 /* AppDelegate.swift in Sources */,
+				071AB55421DEB9CE00DEF166 /* News.swift in Sources */,
+				072876A621EF312B0093656F /* NavigationBar.swift in Sources */,
+				071AB56021DF643300DEF166 /* FullNewsVC.swift in Sources */,
+				07313B3821EF403500591709 /* ParentViewController subclass UIViewController.swift in Sources */,
+				071AB55C21DEC07500DEF166 /* NewsTableCell.swift in Sources */,
+				071AB53E21DEA49600DEF166 /* FirstViewController.swift in Sources */,
+				07313B3C21F268E100591709 /* ChaildViewController1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		071AB54121DEA49600DEF166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071AB54221DEA49600DEF166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		071AB54621DEA49700DEF166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071AB54721DEA49700DEF166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071AB54A21DEA49700DEF166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		071AB54B21DEA49700DEF166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		071AB54D21DEA49700DEF166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EF5B8C46E98E291727DD4A /* Pods-Ozon2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 936J3XZXG4;
+				INFOPLIST_FILE = Ozon2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milos.Ozon2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		071AB54E21DEA49700DEF166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0222732978DB338EB0C67462 /* Pods-Ozon2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 936J3XZXG4;
+				INFOPLIST_FILE = Ozon2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milos.Ozon2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071AB53321DEA49600DEF166 /* Build configuration list for PBXProject "Ozon2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071AB54A21DEA49700DEF166 /* Debug */,
+				071AB54B21DEA49700DEF166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071AB54C21DEA49700DEF166 /* Build configuration list for PBXNativeTarget "Ozon2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071AB54D21DEA49700DEF166 /* Debug */,
+				071AB54E21DEA49700DEF166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071AB53021DEA49600DEF166 /* Project object */;
+}
