@@ -11,7 +11,7 @@ import XLPagerTabStrip
 class ChaildViewController2: UIViewController, IndicatorInfoProvider {
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "Child 2")
+        return IndicatorInfo(title: "child2")
     }
     
     

@@ -30,7 +30,7 @@
         <!--VIJESTI-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Ozon2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="child1" id="9pv-A4-QxB" customClass="FirstViewController" customModule="Ozon2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,12 +150,13 @@
                     </view>
                     <connections>
                         <outlet property="buttonBarView" destination="OMP-Jp-0az" id="A5R-DB-lsR"/>
+                        <outlet property="containerView" destination="OMP-Jp-0az" id="KZ6-wJ-dxs"/>
                         <outlet property="view" destination="uR6-Jb-FpY" id="i0o-GA-bCP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0v-Y8-wQN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1745" y="866"/>
+            <point key="canvasLocation" x="1809" y="-815"/>
         </scene>
         <!--Full NewsVC-->
         <scene sceneID="uuT-6e-N69">
@@ -166,37 +167,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aleksandar_perovic_1024_x_576" translatesAutoresizingMaskIntoConstraints="NO" id="3L7-ru-Vtq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="222"/>
+                                <rect key="frame" x="0.0" y="40" width="375" height="222"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="222" id="Keh-Hh-yQ5"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6K-Up-AfA">
-                                <rect key="frame" x="6" y="5" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back"/>
-                                <connections>
-                                    <segue destination="9pv-A4-QxB" kind="show" id="gvI-Yr-e40"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="14/12/2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgF-gC-lxZ">
-                                <rect key="frame" x="6" y="91.5" width="363" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14/12/2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgF-gC-lxZ">
+                                <rect key="frame" x="6" y="279" width="363" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" text="Ozon sa partnerima učestvovao na Sajmu energije, energetske efikasnosti, zaštite životne sredine i klimatskih promjena" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7v-Bo-Kbj">
-                                <rect key="frame" x="6" y="132.5" width="363" height="100.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Ozon sa partnerima učestvovao na Sajmu energije, energetske efikasnosti, zaštite životne sredine i klimatskih promjena" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7v-Bo-Kbj">
+                                <rect key="frame" x="6" y="319.5" width="363" height="75.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XAQ-Nx-s8n">
-                                <rect key="frame" x="0.0" y="370" width="375" height="248"/>
+                                <rect key="frame" x="0.0" y="405" width="375" height="213"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="248" id="g0v-gC-4on"/>
-                                </constraints>
                                 <string key="text">Ekološki pokret ,,Ozon“ je zajedno sa partnerima iz ICT kompanije  Amplitudo  i kampanje Svaka limenka se računa uzeo učešće na Sajmu energije, energetske efikasnosti, zaštite životne sredine i klimatskih promjena, kojeg su u okviru Energetskih dana Podgorice,  27. aprila organizovali Green Home u saradnji sa Glavnim gradom Podgorica, Sekretarijatom za prostorno planiranje i uređenje prostora i zaštitu životne sredine, NVO Prona i EU Info Centrom iz Podgorice.Ekološki pokret ,,Ozon“ je zajedno sa partnerima iz ICT kompanije  Amplitudo  i kampanje Svaka limenka se računa uzeo učešće na Sajmu energije, energetske efikasnosti, zaštite životne sredine i klimatskih promjena, kojeg su u okviru Energetskih dana Podgorice,  27. aprila organizovali Green Home u saradnji sa Glavnim gradom Podgorica, Sekretarijatom za prostorno planiranje i uređenje prostora i zaštitu životne sredine, NVO Prona i EU Info Centrom iz Podgorice.Ekološki pokret ,,Ozon“ je zajedno sa partnerima iz ICT kompanije  Amplitudo  i kampanje Svaka limenka se računa uzeo učešće na Sajmu energije, energetske efikasnosti, zaštite životne sredine i klimatskih promjena, kojeg su u okviru Energetskih dana Podgorice,  27. aprila organizovali Green Home u saradnji sa Glavnim gradom Podgorica, Sekretarijatom za prostorno planiranje i uređenje prostora i zaštitu životne sredine, NVO Prona i EU Info Centrom iz Podgorice.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -204,10 +194,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="3L7-ru-Vtq" firstAttribute="top" secondItem="X7P-1A-2oh" secondAttribute="top" id="3Fs-IL-KTM"/>
                             <constraint firstItem="M7v-Bo-Kbj" firstAttribute="top" secondItem="zgF-gC-lxZ" secondAttribute="bottom" constant="20" id="6j6-h6-MnE"/>
                             <constraint firstItem="XAQ-Nx-s8n" firstAttribute="leading" secondItem="X7P-1A-2oh" secondAttribute="leading" id="9TP-0X-yd7"/>
-                            <constraint firstItem="XAQ-Nx-s8n" firstAttribute="top" secondItem="M7v-Bo-Kbj" secondAttribute="bottom" constant="38" id="IX3-nh-tbh"/>
+                            <constraint firstItem="3L7-ru-Vtq" firstAttribute="top" secondItem="X7P-1A-2oh" secondAttribute="top" constant="40" id="H39-1J-B4E"/>
+                            <constraint firstItem="XAQ-Nx-s8n" firstAttribute="top" secondItem="M7v-Bo-Kbj" secondAttribute="bottom" constant="10" id="I9M-1U-bEs"/>
                             <constraint firstItem="zgF-gC-lxZ" firstAttribute="top" secondItem="3L7-ru-Vtq" secondAttribute="bottom" constant="17" id="KgF-ea-dqz"/>
                             <constraint firstAttribute="trailing" secondItem="XAQ-Nx-s8n" secondAttribute="trailing" id="QtN-Fh-6Lj"/>
                             <constraint firstItem="zgF-gC-lxZ" firstAttribute="leading" secondItem="BF4-6O-jGg" secondAttribute="leading" constant="6" id="SXv-tg-2C8"/>
@@ -229,27 +219,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qr3-jt-eOa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="463" y="866"/>
-        </scene>
-        <!--Chaild View Controller1-->
-        <scene sceneID="Yup-mD-75W">
-            <objects>
-                <viewController id="O2b-By-MDq" customClass="ChaildViewController1" customModule="Ozon2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="beQ-Bo-V6m">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="kSG-7Z-BLq"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bFL-lH-st2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1071" y="1657"/>
+            <point key="canvasLocation" x="461.60000000000002" y="865.81709145427294"/>
         </scene>
         <!--Chaild View Controller2-->
         <scene sceneID="F1o-iw-FQn">
             <objects>
-                <viewController id="pXC-Gi-1Z1" customClass="ChaildViewController2" customModule="Ozon2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="child3" id="pXC-Gi-1Z1" customClass="ChaildViewController2" customModule="Ozon2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rq5-xm-WRk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -502,7 +477,4 @@
         <image name="cloud" width="33" height="26"/>
         <image name="logo_ozon_1" width="804" height="584"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="6eU-KJ-qck"/>
-    </inferredMetricsTieBreakers>
 </document>

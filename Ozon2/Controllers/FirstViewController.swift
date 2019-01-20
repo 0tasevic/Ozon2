@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import XLPagerTabStrip
 
-class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
+class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, IndicatorInfoProvider {
+    
+    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
+        return IndicatorInfo(title: "child1")
+    }
     
     
     @IBOutlet weak var NewsTable: UITableView!
