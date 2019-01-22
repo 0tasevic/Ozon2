@@ -122,8 +122,8 @@
 		071AB55A21DEC01200DEF166 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				071AB55B21DEC07500DEF166 /* NewsTableCell.swift */,
 				072876A521EF312B0093656F /* NavigationBar.swift */,
+				071AB55B21DEC07500DEF166 /* NewsTableCell.swift */,
 				072876A321EF310B0093656F /* UIKit+Extensions.swift */,
 				071AB53B21DEA49600DEF166 /* AppDelegate.swift */,
 			);

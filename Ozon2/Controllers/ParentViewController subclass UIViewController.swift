@@ -8,13 +8,15 @@
 import XLPagerTabStrip
 class ParentViewController: ButtonBarPagerTabStripViewController {
 
-    let purpleInspireColor = UIColor(red:0.13, green:0.03, blue:0.25, alpha:1.0)
+   let purpleInspireColor = UIColor(red:0.13, green:0.03, blue:0.25, alpha:1.0)
     override func viewDidLoad() {
+        // change selected bar color
         settings.style.buttonBarBackgroundColor = .white
         settings.style.buttonBarItemBackgroundColor = .white
-        settings.style.selectedBarBackgroundColor = purpleInspireColor
-        settings.style.buttonBarItemFont = .boldSystemFont(ofSize: 14)
-        settings.style.selectedBarHeight = 2.0
+        settings.style.selectedBarBackgroundColor = #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1)
+//        settings.style.selectedBarBackgroundColor = purpleInspireColor
+        settings.style.buttonBarItemFont = .boldSystemFont(ofSize: 18)
+        settings.style.selectedBarHeight = 5.0
         settings.style.buttonBarMinimumLineSpacing = 0
         settings.style.buttonBarItemTitleColor = .black
         settings.style.buttonBarItemsShouldFillAvailiableWidth = true
@@ -26,17 +28,24 @@ class ParentViewController: ButtonBarPagerTabStripViewController {
             newCell?.label.textColor = self?.purpleInspireColor
         }
         super.viewDidLoad()
-
-
-        // Do any additional setup after loading the view.
+        setupNavigationBar()
     }
+
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-        let child_1 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "child1")
-        let child_2 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "child2")
+        let child_1 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VIJESTI")
+        let child_2 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SAOPSTENJA")
         return [child_1, child_2]
     }
     
     
+ 
+
+private func setupNavigationBar() {
+    let logoImage =  #imageLiteral(resourceName: "logo_ozon_small")
+    let leftBarButtonItem = UIBarButtonItem(image: logoImage, style: .plain, target: nil, action: nil)
+    navigationItem.leftBarButtonItem = leftBarButtonItem
+}
+
 
     /*
     // MARK: - Navigation

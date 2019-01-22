@@ -12,7 +12,7 @@ import XLPagerTabStrip
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, IndicatorInfoProvider {
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "child1")
+        return IndicatorInfo(title: "VIJESTI")
     }
     
     
